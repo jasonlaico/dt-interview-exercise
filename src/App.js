@@ -178,7 +178,7 @@ setCompany(e.target.value)
         <td className="name">{item.name}</td>
         <td className="company">{item.company}</td>
         <td>{item.sales}</td>
-        {item.sales >= 1200? <td><i class="far fa-star shadow-pop-tr"></i></td> : <td></td>}
+        {item.sales >= 1200? <td><i class="far fa-star shadow-inset-center"></i></td> : <td></td>}
       </tr>
       )
     })}
@@ -213,7 +213,7 @@ nextLinkClassName={"paginationDisabled"}
 activeClassName={"paginationActive"} */}
   </div>
 
-   <h2 className="top-performers">Top Performers (800+/month)</h2>
+   <h2 className="top-performers">Top Performers ($800+/month)</h2>
     <div className="perfomers">
    
    <div className="table-container">
